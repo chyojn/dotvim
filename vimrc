@@ -70,7 +70,7 @@ if (has("gui_running"))
     set guioptions-=m
     set guioptions-=T
     set lines=999 
-    set columns=108
+    set columns=88
     if (has("win32"))
         "set guifont=Consolas:h11:cANSI
         set guifont=Source_Code_Pro:h11:cANSI
