@@ -87,7 +87,7 @@ map <F8> :!ctags -R --c++-kinds=+p --fields=+iaS --extra=+q .<CR>
 
 set path=.,/usr/include,,**
 
-set wrap
+set nowrap
 set linebreak
 
 set mouse=a
