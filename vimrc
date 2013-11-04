@@ -5,6 +5,7 @@ set nocompatible
 filetype off
 set rtp+=~/.vim/bundle/vundle/
 call vundle#rc()
+Bundle 'gmarik/vundle'
 Bundle 'ctrlp.vim'
 Bundle 'bufexplorer.zip'
 Bundle 'taglist.vim'
