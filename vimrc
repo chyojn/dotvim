@@ -22,8 +22,6 @@ set nobomb
 set langmenu=none
 language message en_US.UTF-8
 
-"call pathogen#infect()
-
 set fileformat=unix
 set fileformats=dos,unix,mac
 
