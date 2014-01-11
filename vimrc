@@ -55,7 +55,7 @@ if (has("gui_running"))
 else
     set background=dark
 endif
-set background=light
+set background=dark
 let g:solarized_termcolors=256
 colorscheme solarized
 """""""""""""""""""""""""""""""""""""
@@ -73,7 +73,7 @@ if (has("gui_running"))
     if (has("win32"))
         "set guifont=Consolas:h11:cANSI
         set guifont=Source_Code_Pro:h11:cANSI
-        set guifontwide=幼圆:h11:cGB2312
+        "set guifontwide=幼圆:h11:cGB2312
     endif
 endif
 
