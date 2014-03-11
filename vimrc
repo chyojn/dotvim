@@ -23,7 +23,7 @@ set langmenu=none
 language message en_US.UTF-8
 
 set fileformat=unix
-set fileformats=dos,unix,mac
+set fileformats=unix,dos,mac
 
 filetype on
 filetype plugin on 
