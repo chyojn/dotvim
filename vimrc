@@ -11,7 +11,15 @@ Bundle 'bufexplorer.zip'
 Bundle 'taglist.vim'
 Bundle 'a.vim'
 Bundle 'altercation/vim-colors-solarized'
+"Bundle 'sickill/vim-monokai'
+"Bundle 'tomasr/molokai'
 """""""""""""""""""""""""""""""""""""
+
+""""""""""""""""""""""""""""""""""
+"Bundle 'nathanaelkane/vim-indent-guides'
+""""""""""""""""""""""""""""""""""""""
+
+"Bundle 'desert256'
 
 set encoding=utf-8
 set fileencoding=utf-8
@@ -46,15 +54,11 @@ set whichwrap=b,s,h,l,<,>,[,]
 syntax on
 "colorscheme desert
 "colorscheme molokai
+"colorscheme monokai
 
 """""""""""""""""""""""""""""""""""""
 "color solarized
 syntax enable
-if (has("gui_running"))
-    set background=light
-else
-    set background=dark
-endif
 set background=dark
 let g:solarized_termcolors=256
 colorscheme solarized
