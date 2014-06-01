@@ -10,16 +10,12 @@ Bundle 'ctrlp.vim'
 Bundle 'bufexplorer.zip'
 Bundle 'taglist.vim'
 Bundle 'a.vim'
-Bundle 'altercation/vim-colors-solarized'
-"Bundle 'sickill/vim-monokai'
-"Bundle 'tomasr/molokai'
 """""""""""""""""""""""""""""""""""""
 
 """"""""""""""""""""""""""""""""""
 "Bundle 'nathanaelkane/vim-indent-guides'
 """"""""""""""""""""""""""""""""""""""
 
-"Bundle 'desert256'
 
 set encoding=utf-8
 set fileencoding=utf-8
@@ -52,17 +48,7 @@ set backspace=indent,eol,start
 set whichwrap=b,s,h,l,<,>,[,]
 
 syntax on
-"colorscheme desert
-"colorscheme molokai
-"colorscheme monokai
 
-"""""""""""""""""""""""""""""""""""""
-"color solarized
-syntax enable
-set background=dark
-let g:solarized_termcolors=256
-colorscheme solarized
-"""""""""""""""""""""""""""""""""""""
 
 set number
 set ruler
@@ -94,3 +80,20 @@ set nowrap
 set linebreak
 
 set mouse=a
+
+"Bundle 'altercation/vim-colors-solarized'
+"syntax enable
+"set background=dark
+"let g:solarized_termcolors=256
+"colorscheme solarized
+
+"Bundle 'tomasr/molokai'
+"colorscheme molokai
+
+"Bundle 'sickill/vim-monokai'
+"colorscheme monokai
+
+Bundle 'desert256.vim'
+colorscheme desert256
+
+"colorscheme desert
