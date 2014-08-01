@@ -97,3 +97,7 @@ Bundle 'desert256.vim'
 colorscheme desert256
 
 "colorscheme desert
+
+" highlight syntax for cuda script
+au BufNewFile,BufRead *.cu set filetype=cuda
+au BufNewFile,BufRead *.cuh set filetype=cuda
