@@ -50,6 +50,7 @@ set whichwrap=b,s,h,l,<,>,[,]
 syntax on
 
 
+set dy=lastline
 set number
 set ruler
 "set cursorline
