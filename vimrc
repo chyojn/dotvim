@@ -102,3 +102,6 @@ colorscheme desert256
 " highlight syntax for cuda script
 au BufNewFile,BufRead *.cu set filetype=cuda
 au BufNewFile,BufRead *.cuh set filetype=cuda
+
+" scons
+au BufNewFile,BufRead SConstruct set filetype=python
