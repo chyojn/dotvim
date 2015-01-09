@@ -10,6 +10,8 @@ Bundle 'ctrlp.vim'
 Bundle 'bufexplorer.zip'
 Bundle 'taglist.vim'
 Bundle 'a.vim'
+Plugin 'octol/vim-cpp-enhanced-highlight'
+"Bundle 'google.vim'
 """""""""""""""""""""""""""""""""""""
 
 """"""""""""""""""""""""""""""""""
@@ -41,9 +43,11 @@ set undolevels=1000
 
 set clipboard=unnamed
 
-set tabstop=4
-set shiftwidth=4
+set tabstop=2
+set softtabstop=2
+set shiftwidth=2
 set expandtab
+
 set backspace=indent,eol,start
 set whichwrap=b,s,h,l,<,>,[,]
 
@@ -74,6 +78,12 @@ set hlsearch
 
 set tags=./tags;/
 map <F8> :!ctags -R --c++-kinds=+p --fields=+iaS --extra=+q .<CR>
+
+"""clang-format
+"""http://clang.llvm.org/docs/ClangFormat.html
+"""https://llvm.org/svn/llvm-project/cfe/trunk/tools/clang-format/clang-format.py
+map <C-I> :pyf ~/dotvim/clang-format.py<cr>
+imap <C-I> <c-o>:pyf ~/dotvim/clang-format.py<cr>
 
 set path=.,/usr/include,,**
 
