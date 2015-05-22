@@ -10,14 +10,7 @@ Bundle 'ctrlp.vim'
 Bundle 'bufexplorer.zip'
 Bundle 'taglist.vim'
 Bundle 'a.vim'
-Plugin 'octol/vim-cpp-enhanced-highlight'
-"Bundle 'google.vim'
 """""""""""""""""""""""""""""""""""""
-
-""""""""""""""""""""""""""""""""""
-"Bundle 'nathanaelkane/vim-indent-guides'
-""""""""""""""""""""""""""""""""""""""
-
 
 set encoding=utf-8
 set fileencoding=utf-8
@@ -43,9 +36,9 @@ set undolevels=1000
 
 set clipboard=unnamed
 
-set tabstop=4
-set softtabstop=4
-set shiftwidth=4
+set tabstop=2
+set softtabstop=2
+set shiftwidth=2
 set expandtab
 
 set backspace=indent,eol,start
@@ -68,7 +61,6 @@ if (has("gui_running"))
     if (has("win32"))
         "set guifont=Consolas:h11:cANSI
         set guifont=Source_Code_Pro:h14:cANSI
-        "set guifontwide=幼圆:h11:cGB2312
     endif
 endif
 
@@ -91,18 +83,6 @@ set nowrap
 set linebreak
 
 set mouse=a
-
-"Bundle 'altercation/vim-colors-solarized'
-"syntax enable
-"set background=dark
-"let g:solarized_termcolors=256
-"colorscheme solarized
-
-"Bundle 'tomasr/molokai'
-"colorscheme molokai
-
-"Bundle 'sickill/vim-monokai'
-"colorscheme monokai
 
 Bundle 'desert256.vim'
 colorscheme desert256
