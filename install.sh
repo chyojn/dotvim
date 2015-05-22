@@ -1,8 +1,8 @@
 #clone vundle
-git clone https://github.com/gmarik/vundle.git ~/.vim/bundle/vundle
+git clone https://github.com/gmarik/vundle.git ~/.vim/bundle/vundle || exit 1
 
 #set .vimrc
-ln -s ~/dotvim/vimrc ~/.vimrc
+ln -s ~/dotvim/vimrc ~/.vimrc || exit 1
 
 # windows powershell: mklink ~/.vimrc ~/dotvim/vimrc
 
