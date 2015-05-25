@@ -84,10 +84,10 @@ set linebreak
 
 set mouse=a
 
-Bundle 'desert256.vim'
-colorscheme desert256
+"Bundle 'desert256.vim'
+"colorscheme desert256
 
-"colorscheme desert
+colorscheme desert
 
 " highlight syntax for cuda script
 au BufNewFile,BufRead *.cu set filetype=cuda
