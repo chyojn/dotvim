@@ -3,6 +3,7 @@
 
 #set .vimrc
 ln -s ~/dotvim/vimrc ~/.vimrc || exit 1
+ln -s ~/dotvim/dotctags ~/.ctags || exit 1
 
 # windows powershell: mklink ~/.vimrc ~/dotvim/vimrc
 
