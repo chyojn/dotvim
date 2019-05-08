@@ -35,13 +35,8 @@ set autoindent
 """ ctags
 set tags=./tags;,tags; "help tags, help ctags
 
-"let g:ctrlp_extensions = ['tag']
+""" YCM
 let g:ycm_autoclose_preview_window_after_completion=1
-let g:ycm_python_binary_path='/home/bishui/miniconda3/envs/py3lab/bin/python3.6'
-"let g:ycm_python_interpreter_path='/home/bishui/miniconda3/envs/py3lab/bin/python3.6'
+let g:ycm_python_binary_path='~/miniconda3/envs/py3lab/bin/python3.6'
+let g:ycm_python_interpreter_path='~/miniconda3/envs/py3lab/bin/python3.6'
 nnoremap <leader>gg :YcmCompleter GoTo<CR>
-"nnoremap <leader>gdoc    :YcmCompleter GetDoc<CR>
-"nnoremap <leader>ginc    :YcmCompleter GoToInclude<CR>
-"nnoremap <leader>gdec    :YcmCompleter GoToDeclaration<CR>
-"nnoremap <leader>gdef    :YcmCompleter GoToDefinition<CR>
-"nnoremap <leader>gimp    :YcmCompleter GoToImprecise<CR>
