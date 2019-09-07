@@ -5,6 +5,7 @@ filetype off
 set runtimepath^=~/dotvim/bundle/ctrlp.vim
 set runtimepath^=~/dotvim/bundle/taglist
 set runtimepath^=~/dotvim/bundle/nerdcommenter
+set runtimepath^=~/dotvim/bundle/vim-fugitive
 set runtimepath^=~/dotvim/bundle/YouCompleteMe
 
 filetype indent plugin on
