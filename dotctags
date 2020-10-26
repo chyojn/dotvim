@@ -17,3 +17,4 @@
 --exclude=tags
 --exclude=cscope.\*
 --exclude=build
+--exclude=cmake-build-*

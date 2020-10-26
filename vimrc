@@ -37,3 +37,8 @@ set autoindent
 """ ctags
 set tags=./tags;,tags; "help tags, help ctags
 
+""" ctrlp
+set wildignore+=*/.git/*,*/.hg/*,*/.svn/*
+set wildignore+=*/build/*,*/cmake-build-*/*
+set wildignore+=*/catkin_ws/build/*,*/catkin_ws/devel/*
+set wildignore+=*/*.o,*/*.obj,*/*.so,*/*.a,*/*.pyc,*/*.jpg,*/*.png
