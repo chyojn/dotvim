@@ -2,10 +2,10 @@ set nocompatible
 
 filetype off
 
-set runtimepath^=~/dotvim/bundle/ctrlp.vim
+set runtimepath^=~/dotvim/bundle/ctrlp
 set runtimepath^=~/dotvim/bundle/taglist
-set runtimepath^=~/dotvim/bundle/vim-commentary
-set runtimepath^=~/dotvim/bundle/vim-fugitive
+set runtimepath^=~/dotvim/bundle/commentary
+set runtimepath^=~/dotvim/bundle/fugitive
 
 filetype indent plugin on
 
